@@ -1,0 +1,18 @@
+.select-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    /* Add any additional styling you need for the container */
+}
+
+.select-label {
+    margin-right: 15px;
+    /* Add any additional styling you need for the label */
+}
+
+.react-select {
+    flex: 1;
+    max-width: 500px;
+    /* Adjust the width as per your requirements */
+    /* Add any additional styling you need for the React Select component */
+}
