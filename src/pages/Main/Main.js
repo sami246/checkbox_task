@@ -9,7 +9,7 @@ import CodePage from '../CodePage/CodePage';
 
 const Main = () => {
     const NumberOfQuestions = Data.length
-    const { questionIndex, setQuestionIndex } = useContext(Context)
+    const { questionIndex } = useContext(Context)
 
     return (
         <div style={{ margin: 50 }}>
@@ -17,7 +17,7 @@ const Main = () => {
                 ?
                 <QuestionPage />
                 :
-                questionIndex == NumberOfQuestions
+                questionIndex === NumberOfQuestions
 
                     ?
                     <CodePage />
